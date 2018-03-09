@@ -9,7 +9,7 @@ function imageOnClick(info, tab) {
 		if(sid.indexOf('005')==0 || sid.indexOf('006')==0){
 			id = string62to10(sid);
 		}else{
-			id = parseInt(sid, 2);
+			id = parseInt(sid, 16);
 		}
 		window.open('http://photo.weibo.com/' + id);
 	}
