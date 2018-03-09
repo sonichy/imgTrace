@@ -1,0 +1,11 @@
+{
+	"manifest_version" : 2,
+    "name" : "图片追踪",
+    "version" : "1.0",
+    "description" : "分析图片的网址，跳转到图片所在的仓库。",
+    "background" : { "scripts" : ["background.js"] },
+    "icons" : { "128" : "icon.png", "16" : "icon.png" },
+    "browser_action" : { "default_icon" : "icon.png", "default_title" : "图片追踪" },
+    "options_page" : "options.htm",    
+    "permissions" : [ "contextMenus" ]    
+}
